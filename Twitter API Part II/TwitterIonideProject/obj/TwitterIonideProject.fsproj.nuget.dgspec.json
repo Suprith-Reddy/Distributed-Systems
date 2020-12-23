@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\supri\\F-Sharp\\TwitterIonideProject\\TwitterIonideProject.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\supri\\F-Sharp\\TwitterIonideProject\\TwitterIonideProject.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\supri\\F-Sharp\\TwitterIonideProject\\TwitterIonideProject.fsproj",
+        "projectName": "WebSocket",
+        "projectPath": "C:\\Users\\supri\\F-Sharp\\TwitterIonideProject\\TwitterIonideProject.fsproj",
+        "packagesPath": "C:\\Users\\supri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\supri\\F-Sharp\\TwitterIonideProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\supri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Akka": {
+              "target": "Package",
+              "version": "[1.4.12, )",
+              "generatePathProperty": true
+            },
+            "Akka.FSharp": {
+              "target": "Package",
+              "version": "[1.4.12, )",
+              "generatePathProperty": true
+            },
+            "Akka.Remote": {
+              "target": "Package",
+              "version": "[1.4.12, )",
+              "generatePathProperty": true
+            },
+            "Akka.TestKit": {
+              "target": "Package",
+              "version": "[1.4.12, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )",
+              "generatePathProperty": true
+            },
+            "Suave": {
+              "target": "Package",
+              "version": "[2.6.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

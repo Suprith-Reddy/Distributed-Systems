@@ -1,0 +1,11 @@
+{
+    "workbench.editorAssociations": [
+
+
+    {
+        "viewType": "",
+        "filenamePattern": ""
+    }
+    ],
+    "FSharp.fsiExtraParameters": ["--langversion:preview"]
+}
